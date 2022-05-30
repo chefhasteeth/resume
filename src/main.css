@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .separator {
+        @apply px-1.5 text-[0.65rem] text-slate-400/80 font-medium align-top;
+    }
+}
